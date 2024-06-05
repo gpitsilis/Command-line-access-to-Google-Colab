@@ -2,7 +2,8 @@ This tutorial is based on instructions found online at:
 
 https://goinglinux.com/articles/Connect_to_HDTV_1080P_using_VGA_en.htm
 
-It is suitable for cases where in your ubuntu desktop for some reasin you get a low resolution by default (e.g. 640x480) , with no options to increase to a higher one.
+It is suitable for cases where in your ubuntu desktop for any reason you get low resolution desktop 
+by default (e.g. 640x480).
 Such low resolution does not conform to the modern standards for computing, making your system practically unusable.
 This usually happens when you connect an old type VGA monitor (e.g. an old-school CRT ) to your computer in which we try to tun one of the late distros of ubuntu.
 
@@ -13,7 +14,7 @@ To get the existing resolutions and adapters available in your computer.
 (You will need to install xrandr if not already installed)
 
 For increasing the resolution you will need to apply the following 3 steps: 
-(first make sure that you monitor does support the resolution your are trying)
+(first make sure that the aiming resoltion is supported by you monitor)
 
 1.
 To add an undetected resolution, first use the cvt command to test the settings you need. The format is: horiz_res, vert_res, sync_Hz
